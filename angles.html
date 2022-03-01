@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="../styles.css" />
+    <title>Angles Of Triangle</title>
+  </head>
+
+  <body>
+    <div id="content_body">
+      <a href="../index.html" class="link back-link"
+        ><span class="fa fa-arrow-left icon-back"></span> Back To Home</a
+      >
+      <h1 class="heading">Angles Of Triangle</h1>
+      <p class="description">
+        Enter the angles in below input boxes and we will tell you if those
+        angles make a Triangle
+      </p>
+      <form id="angles-form" class="form display-flex-coloumn">
+        <input
+          placeholder="angle 1"
+          class="input"
+          type="number"
+          min="1"
+          max="180"
+          name="angle-one"
+          id="angle-one"
+          required
+        />
+        <input
+          placeholder="angle 2"
+          class="input"
+          type="number"
+          min="1"
+          max="180"
+          name="angle-two"
+          id="angle-two"
+          required
+        />
+        <input
+          placeholder="angle 3"
+          class="input"
+          type="number"
+          min="1"
+          max="180"
+          name="angle-three"
+          id="angle-three"
+          required
+        />
+        <button class="submit-button" type="submit" id="submit-angles">
+          Check
+        </button>
+      </form>
+      <p id="output" class="output-para">Result will be shown here</p>
+    </div>
+    <footer>
+      <a
+        href="https://github.com/savvy1232"
+        class="icon-sm link fa fa-github"
+      ></a>
+      <a
+        href="https://twitter.com/2Savvy123?t=rv3PNFAvjR5mq7cYfwowzQ&s=08"
+        class="icon-sm link fa fa-twitter"
+      ></a>
+      <a
+        href="https://www.linkedin.com/in/ranjit-somwanshi-204a91189"
+        class="icon-sm link fa fa-linkedin"
+      ></a>
+    </footer>
+    <script src="../jsFiles/angles.js"></script>
+  </body>
+</html>

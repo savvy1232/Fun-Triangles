@@ -1,0 +1,108 @@
+.labelA,
+.labelB,
+.labelC,
+.labelAngle,
+.container,
+.height-base,
+.hypotenuse,
+.side1,
+.side2,
+.side3,
+.label1,
+.label2,
+.label3,
+.label4 {
+  position: absolute;
+  color: var(--light-beige);
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.labelAngle {
+  top: 4.5rem;
+  left: 8rem;
+}
+
+.labelA {
+  top: 2.5rem;
+}
+
+.labelB {
+  top: 6rem;
+  left: 5rem;
+}
+
+.labelC {
+  top: 1.5rem;
+  left: 6rem;
+}
+
+.container {
+  position: relative;
+  width: 11rem;
+  height: 5rem;
+  margin: 4rem auto;
+}
+
+.height-base {
+  height: 6rem;
+  width: 10.4rem;
+  border-left: 2px solid var(--light-beige);
+  border-bottom: 2px solid var(--light-beige);
+  left: 1rem;
+}
+
+.hypotenuse {
+  height: 1rem;
+  width: 12rem;
+  border-bottom: 2px solid var(--light-beige);
+  left: 0.5rem;
+  top: 2rem;
+  transform: rotate(30deg);
+}
+
+.side1 {
+  width: 11.2rem;
+  height: 2.6rem;
+  border-bottom: 2px solid var(--light-beige);
+  top: 2.9rem;
+  left: 0rem;
+}
+
+.side2 {
+  transform: rotate(45deg);
+  height: 8rem;
+  width: 8rem;
+  border-top: 2px solid var(--light-beige);
+  border-left: 2px solid var(--light-beige);
+  top: 1.5rem;
+  left: 1.5rem;
+}
+
+.side3 {
+  height: 5.6rem;
+  width: 1rem;
+  border-left: 2px solid var(--light-beige);
+  left: 5.5rem;
+  top: 0rem;
+}
+
+.label1 {
+  top: 2.5rem;
+  left: 4.5rem;
+}
+
+.label2 {
+  top: 5.7rem;
+  left: 5.5rem;
+}
+
+.label3 {
+  top: 1.7rem;
+  left: 1rem;
+}
+
+.label4 {
+  top: 2rem;
+  left: 9rem;
+}

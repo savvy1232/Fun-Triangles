@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../styles.css" />
+    <link rel="stylesheet" href="../triangles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <title>Hypotenuse Of Triangle</title>
+  </head>
+
+  <body>
+    <div id="content_body">
+      <a href="../index.html" class="link back-link"
+        ><span class="fa fa-arrow-left icon-back"></span> Back To Home</a
+      >
+      <h1 class="heading">Hypotenuse Of Triangle</h1>
+      <p class="description">
+        Enter the sides of the triangle, a and b and we will compute its
+        hypotenuse
+      </p>
+      <div class="container container-ra">
+        <div class="height-base"></div>
+        <div class="hypotenuse"></div>
+        <div></div>
+        <span class="labelA">A</span>
+        <span class="labelB">B</span>
+        <span class="labelC">C</span>
+      </div>
+
+      <form id="hypotenuse-form" class="form display-flex-coloumn">
+        <div>
+          <label class="label" for="adjacent-side">A : </label>
+          <input
+            placeholder="length"
+            class="input input-with-label"
+            type="number"
+            min="1"
+            required
+            autocomplete="off"
+            name="adjacent-side"
+            id="adjacent-side"
+          />
+        </div>
+        <div>
+          <label class="label" for="base">B : </label>
+          <input
+            placeholder="length"
+            class="input input-with-label"
+            type="number"
+            min="1"
+            required
+            name="base"
+            autocomplete="off"
+            id="base"
+          />
+        </div>
+        <button type="submit" class="submit-button">Calculate</button>
+      </form>
+
+      <p id="output" class="output-para">Hypotenuse will be shown here</p>
+    </div>
+    <footer>
+      <a
+        href="https://github.com/savvy1232"
+        class="icon-sm link fa fa-github"
+      ></a>
+      <a
+        href="https://twitter.com/2Savvy123?t=rv3PNFAvjR5mq7cYfwowzQ&s=08"
+        class="icon-sm link fa fa-twitter"
+      ></a>
+      <a
+        href="https://www.linkedin.com/in/ranjit-somwanshi-204a91189"
+        class="icon-sm link fa fa-linkedin"
+      ></a>
+    </footer>
+    <script src="../jsFiles/hypotenuse.js"></script>
+  </body>
+</html>
